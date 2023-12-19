@@ -56,7 +56,7 @@ height: 30px;
 }
 .both{
   display: flex;
-  margin-left: 320px;
+  margin-left: 250px;
 }
 
 .wishlist:hover{
@@ -186,5 +186,6 @@ height: 30px;
   padding: 8px;
   border-radius: 60px;
   margin: 10px;
-  margin-left: 50px ;
+  margin-left: 39px;
+
 }

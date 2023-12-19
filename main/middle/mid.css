@@ -17,7 +17,7 @@ body{
 .total{
     display: block;
     height: 430px;
-
+    
     overflow-x: auto;
     
     
@@ -26,6 +26,7 @@ body{
     display: flex;
     width: 2783px;
     height: 100%;
+    /* border: 1px solid black; */
     
     
 }
@@ -103,10 +104,12 @@ body::-webkit-scrollbar-thumb {
 .real{
     margin-left: 15px;
     font-size: 19px;
+    color: black;
 }
 .dis{
     margin-left: 15px;
     font-size: 19px;
+    color: black;
 }
 
 /* pubg part */
@@ -199,9 +202,9 @@ button{
     width: 50%;
 }
 .i img{
-    width: 590px;
-    height: 356px;
-    margin-left: 20px;
+    width: 527px;
+    height: 301px;
+    margin-left: 26px;
     border-radius: 20px;
 }
 .ti{
@@ -291,7 +294,7 @@ button{
 .a{
     /* border: 1px solid black; */
     height: 188px;
-    width: 402px;
+    width: 350px;
     margin: auto;
     display: flex;
 
