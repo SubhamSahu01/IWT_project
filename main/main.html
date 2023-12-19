@@ -10,58 +10,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <div class="log">
-            <img src="Image/logo.png" alt="" id="logo">
-        </div>
-        <div class="search">
-    
-                <input type="text" placeholder="Search..." class="field" />
+    <div class="q">
+
+        <div class="nav">
+            <div class="log">
+                <img src="Image/logo.png" alt="" id="logo">
+            </div>
+            <div class="search">
+        
+                    <input type="text" placeholder="Search..." class="field" />
+                
+            </div>
+            <div class="both">
+                <div class="wishlist">
+                    Wishlist
+                </div>
+                <div class="cart">
+                    Cart
+                </div>
+            </div>
+            <div class="logn">
+                <a href="./signin/signin_signup.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none" class="lo">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M44 14.6667C35.8998 14.6667 29.3333 21.2332 29.3333 29.3333C29.3333 37.4335 35.8998 44 44 44C52.1002 44 58.6667 37.4335 58.6667 29.3333C58.6667 21.2332 52.1002 14.6667 44 14.6667ZM57.3503 46.821C62.6083 42.8009 66 36.4632 66 29.3333C66 17.1831 56.1503 7.33333 44 7.33333C31.8497 7.33333 22 17.1831 22 29.3333C22 36.4632 25.3917 42.8009 30.6497 46.821C26.963 48.4519 23.5712 50.7598 20.6655 53.6655C18.4217 55.9092 16.5343 58.4431 15.0398 61.1787C12.2821 66.227 13.4067 71.3743 16.5124 75.014C19.5023 78.518 24.2918 80.6667 29.3333 80.6667H58.6667C63.7083 80.6667 68.4977 78.518 71.4876 75.014C74.5933 71.3743 75.7179 66.227 72.9602 61.1787C71.4657 58.4431 69.5783 55.9092 67.3345 53.6655C64.4288 50.7598 61.037 48.4519 57.3503 46.821ZM44 51.3333C37.1928 51.3333 30.6644 54.0375 25.8509 58.8509C24.1056 60.5963 22.6378 62.5668 21.4755 64.6944C20.35 66.7548 20.7131 68.6392 22.091 70.254C23.5847 72.0046 26.2747 73.3333 29.3333 73.3333H58.6667C61.7253 73.3333 64.4153 72.0046 65.909 70.254C67.2869 68.6392 67.65 66.7548 66.5245 64.6944C65.3622 62.5668 63.8944 60.5963 62.1491 58.8509C57.3356 54.0375 50.8072 51.3333 44 51.3333Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+            
             
         </div>
-        <div class="both">
-            <div class="wishlist">
-                Wishlist
+        <div class="main">
+            <div class="left">
+                <div class="store">
+                    Store
+                </div>
+                <div class="lib">
+                    Library
+                </div>
             </div>
-            <div class="cart">
-                Cart
-            </div>
-        </div>
-        <div class="logn">
-            <a href="./signin/signin_signup.html">
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none" class="lo">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M44 14.6667C35.8998 14.6667 29.3333 21.2332 29.3333 29.3333C29.3333 37.4335 35.8998 44 44 44C52.1002 44 58.6667 37.4335 58.6667 29.3333C58.6667 21.2332 52.1002 14.6667 44 14.6667ZM57.3503 46.821C62.6083 42.8009 66 36.4632 66 29.3333C66 17.1831 56.1503 7.33333 44 7.33333C31.8497 7.33333 22 17.1831 22 29.3333C22 36.4632 25.3917 42.8009 30.6497 46.821C26.963 48.4519 23.5712 50.7598 20.6655 53.6655C18.4217 55.9092 16.5343 58.4431 15.0398 61.1787C12.2821 66.227 13.4067 71.3743 16.5124 75.014C19.5023 78.518 24.2918 80.6667 29.3333 80.6667H58.6667C63.7083 80.6667 68.4977 78.518 71.4876 75.014C74.5933 71.3743 75.7179 66.227 72.9602 61.1787C71.4657 58.4431 69.5783 55.9092 67.3345 53.6655C64.4288 50.7598 61.037 48.4519 57.3503 46.821ZM44 51.3333C37.1928 51.3333 30.6644 54.0375 25.8509 58.8509C24.1056 60.5963 22.6378 62.5668 21.4755 64.6944C20.35 66.7548 20.7131 68.6392 22.091 70.254C23.5847 72.0046 26.2747 73.3333 29.3333 73.3333H58.6667C61.7253 73.3333 64.4153 72.0046 65.909 70.254C67.2869 68.6392 67.65 66.7548 66.5245 64.6944C65.3622 62.5668 63.8944 60.5963 62.1491 58.8509C57.3356 54.0375 50.8072 51.3333 44 51.3333Z" fill="white"/>
-                </svg>
-            </a>
-        </div>
-        
-        
-    </div>
-    <div class="main">
-        <div class="left">
-            <div class="store">
-                Store
-            </div>
-            <div class="lib">
-                Library
-            </div>
-        </div>
-        <div class="right">
-           
-            <div class="games">
-                Features Discounts
-            </div>
-            <div class="free" >
-                
-                <iframe src="./feature/feature.html" frameborder="" width="100%" class="subham"></iframe>
-            </div>
-            <div class="big-box">
-                <iframe src="./big/big.html" frameborder="0" height="100%" width="100%" class="big"></iframe>
-
-            </div>
-            <div class="below-box">
-                <iframe src="./all/all.html" frameborder="0" height="100%" width="100%"></iframe>
+            <div class="right">
+               <iframe src="./middle/mid.html" frameborder="0" width="100%" height="100%"></iframe>
+                <!-- <div class="games">
+                    Features Discounts
+                </div>
+                <div class="free" >
+                    
+                    <iframe src="./feature/feature.html" frameborder="" width="100%" class="subham"></iframe>
+                </div>
+                <div class="big-box">
+                    <iframe src="./big/big.html" frameborder="0" height="100%" width="100%" class="big"></iframe>
+    
+                </div>
+                <div class="below-box">
+                    <iframe src="./all/all.html" frameborder="0" height="100%" width="100%"></iframe>
+                </div> -->
             </div>
         </div>
     </div>
