@@ -53,6 +53,7 @@ input{
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 height: 30px;
+width: 40px;
 }
 .both{
   display: flex;
@@ -190,3 +191,7 @@ height: 30px;
 
 }
 
+.foot{
+  height: 359px;
+  background-color: #5e5a5a;
+}
