@@ -177,9 +177,36 @@ height: 30px;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
   }
-  .title{
-    
+  .o{
+    display: flex;margin-top: 90px;
+    margin-left: 30px;
+  }
+  .us{
+    margin-left: 30px;
   }
 
-  
-  
+  .one{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #000000;
+  }
+img{
+    border-radius: 60px;
+    width: 159px;
+    height: 179px;
+  }
+  .title{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 192px;
+
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  label{
+    font-size: 18px;
+    color: #000000;
+  }

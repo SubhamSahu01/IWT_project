@@ -1,5 +1,9 @@
 /* /footer/ */
-
+*{
+  font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
