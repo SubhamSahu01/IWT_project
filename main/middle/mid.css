@@ -104,12 +104,12 @@ body::-webkit-scrollbar-thumb {
 .real{
     margin-left: 15px;
     font-size: 19px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .dis{
     margin-left: 15px;
     font-size: 19px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* pubg part */
