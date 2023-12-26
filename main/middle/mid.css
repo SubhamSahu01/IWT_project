@@ -17,7 +17,7 @@ body{
 .total{
     display: block;
     height: 430px;
-    
+    width: 1091px;
     overflow-x: auto;
     
     
@@ -34,7 +34,8 @@ body{
     height: 350px;
     width: 280px;
     /* border: 1px solid black; */
-    margin: 10px;
+    /* margin: 10px; */
+    /* margin-left: 5px; */
     margin-right: 30px;
     
     
@@ -195,6 +196,7 @@ button{
     /* border: 1px solid black; */
     height: 500px;
     display: flex;
+    width: 1062px;
 }
 .l, .r{
     /* border: 1px solid black; */
@@ -216,6 +218,7 @@ button{
     font-weight: bold;
     margin-left: 30px;
     margin-top: 10px;
+    width: 370px;
 }
 .d{
     color: white;
@@ -224,6 +227,7 @@ button{
     font-family: 'Roboto', sans-serif;
     margin-top: 9px;
     margin-left: 25px;
+    width: 490px;
 }
 .p{
     color: white;
@@ -326,4 +330,58 @@ button{
 .b{
     margin-top: 60px;
     margin-left: 10px;
+}
+.imp{
+    display: flex;
+    
+}
+.lefty{
+    width: 21%;
+}
+
+.a1 .wishlist-btn {
+    display: none;
+}
+
+.a1:hover .wishlist-btn {
+    
+    display: block;
+
+}
+
+.wishlist-btn{
+    position: relative;
+    top: -331px;
+    left: 207px;
+    width: 20px;
+    padding: 0px;
+    height: 21px;
+    background-color: transparent;
+}
+.wishlist-btn img{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+.wisssh{
+    width: 108px;
+    height: 30px;
+    /* background: white; */
+    border-radius: 19px;
+    padding-left: 32px;
+    padding-top: 5px;
+    color: #4a4a4a;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 69px;
+}
+.wisssh:hover{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    cursor: default;
+
 }

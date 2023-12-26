@@ -169,7 +169,7 @@ height: 30px;
   .center{
     width: 50%;
     /* border-right: 1px solid #ccc; */
-    border-left: 1px solid #ccc;
+    /* border-left: 1px solid #ccc; */
     height: 70vh;
   }
   *{
