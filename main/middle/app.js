@@ -21,7 +21,8 @@ let products = [
         name: 'SteamWorld Bulid',
         image: '1.avif',
         price: "₹1,170",
-        src: "../subpage/SteamWorldBulid.html"
+        src: "../subpage/SteamWorldBulid.html",
+        
     },
     {
         id: 2,
