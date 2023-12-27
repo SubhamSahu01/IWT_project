@@ -64,7 +64,7 @@ function search_gam() {
   
         document.getElementById('toggleButton').addEventListener('click', function() {
     var content = document.getElementById('list');
-     
+    
     if (content.style.display === 'none') {
        content.style.display = 'block';
     } else {    

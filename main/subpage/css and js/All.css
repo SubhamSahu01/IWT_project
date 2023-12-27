@@ -1,9 +1,10 @@
 body{
     /* background-color: rgb(87, 85, 85); */
-    width: 1107px;
+    width: 2000px;
     height: 1940px;
     /* border: 1px solid black; */
     overflow: hidden;
+    display: flex;
     
 }
 .out{
@@ -493,4 +494,20 @@ video{
     margin-top: 2px;
     font-weight: bold;
 
+}
+
+.rif{
+    
+    /* border: 1px solid white; */
+    width: 200px;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+.rif svg{
+    position: relative;
+    top: 6px;
+    left: 8px;
 }
