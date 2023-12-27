@@ -1,9 +1,9 @@
 body{
-    /* background-color: rgb(87, 85, 85); */
-    width: 2000px;
+    background-color: #151414;
+    width: 1362px;
     height: 1940px;
-    /* border: 1px solid black; */
-    overflow: hidden;
+    /* border: 1px solid white; */
+    overflow-y: auto;
     display: flex;
     
 }
